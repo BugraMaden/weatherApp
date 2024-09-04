@@ -1,0 +1,19 @@
+.cityAndCelcius{
+    display: inline-block;
+    margin-top: 10%;
+    position: absolute;
+    left: calc(50% - 235px);
+    background-color: rgba(0, 0, 0, 0.041);
+    padding:0px 150px;
+    backdrop-filter: blur(1px);
+}
+.cityAndCelcius div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cityAndCelcius h1{
+    font-size: 55px;
+    animation: opacity 0.3s ease-in-out;
+}

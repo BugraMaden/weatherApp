@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+.fade-in{
+    animation: opacityEffect 1s ease-in-out;
+}
+.fade-in-short{
+    animation: opacityEffect 1s ease-in-out;
+
+}
+.openMapBtn{
+    padding: 30px;
+    cursor: pointer;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+}
+.openMapBtn img{
+    width: 100px;
+}
+
+@keyframes opacityEffect {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
